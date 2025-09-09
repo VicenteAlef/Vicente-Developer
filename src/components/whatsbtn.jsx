@@ -1,7 +1,7 @@
-const WhatsAppBtn = () => {
+const WhatsAppBtn = ({ href }) => {
   return (
-    <div className="fixed w-[50px] h-[50px] flex items-center justify-center bg-green-500 hover:bg-green-600 hover:scale-110 duration-500 ease-in-out bottom-6 right-5 rounded-full">
-      <a href="https://wa.me/+5561982070086" target="_blank">
+    <div className="fixed w-[50px] h-[50px] flex items-center justify-center bg-green-500 hover:bg-green-600 hover:scale-110 duration-500 ease-in-out bottom-6 right-5 rounded-full animate-wiggle">
+      <a href={href} target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="30"

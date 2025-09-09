@@ -1,17 +1,18 @@
-import Banner from "./components/banner";
-import WhatsAppBtn from "./components/whatsbtn";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/NavBar";
+import Home from "./pages/home";
 import Footer from "./components/Footer";
-import { Main, Title } from "./components/commons";
+import WhatsAppBtn from "./components/whatsbtn";
 
 function App() {
   return (
     <>
-      <Banner />
-      <Main>
-        <Title>Sobre mim</Title>
-      </Main>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
       <Footer />
-      <WhatsAppBtn />
+      <WhatsAppBtn href="https://wa.me/+5561982070086" />
     </>
   );
 }
