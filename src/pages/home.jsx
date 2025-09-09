@@ -1,6 +1,6 @@
 import RevealOnScroll from "../components/triger";
 import Banner from "../components/banner";
-import { Main, Title, Content } from "../components/commons";
+import { Main, Title, Content, Card } from "../components/commons";
 
 const Home = () => {
   return (
@@ -13,6 +13,10 @@ const Home = () => {
             <RevealOnScroll>
               <Title>Sobre mim</Title>
               <img src="Shotgun.png" alt="" className="mt-50" />
+              <Card>
+                Teste asdjak dkllm e kjksdajfd k e ckjdlsdkfj dk fsjkdjhfso dfh
+                osf os
+              </Card>
             </RevealOnScroll>
           </Content>
         </section>
