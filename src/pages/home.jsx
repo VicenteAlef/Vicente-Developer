@@ -12,6 +12,7 @@ const Home = () => {
           <Content>
             <RevealOnScroll>
               <Title>Sobre mim</Title>
+              <img src="Shotgun.png" alt="" className="mt-50" />
             </RevealOnScroll>
           </Content>
         </section>
@@ -19,6 +20,7 @@ const Home = () => {
           <Content>
             <RevealOnScroll>
               <Title>Projetos</Title>
+              <img src="SuperMeteor.png" alt="" className="mt-50" />
             </RevealOnScroll>
           </Content>
         </section>

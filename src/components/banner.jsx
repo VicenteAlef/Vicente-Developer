@@ -5,9 +5,9 @@ import RevealOnScroll from "./triger";
 const Banner = () => {
   return (
     <>
-      <div className="fixed z-[-1] overflow-hidden w-full h-screen ">
+      <div className="fixed z-[-1] overflow-hidden w-full h-screen">
         <img
-          className="h-[100%] w-full object-cover object-[25%_75%]bg-[#00109e]"
+          className="h-[100%] w-full object-cover object-[25%_75%]"
           src={vicban}
           alt=""
         />
