@@ -1,21 +1,21 @@
 export const Main = ({ children }) => {
   return (
-    <div className="w-full min-h-screen bg-gray-950 text-white py-10 md:px-[15%]  animate-shine">
+    <div className="w-full min-h-screen bg-gray-950 text-white sm:py-5 px-2 md:px-[15%]  animate-shine">
       {children}
     </div>
   );
 };
 
 export const Content = ({ children }) => {
-  return <div className="w-full min-h-screen pt-20">{children}</div>;
+  return <div className="w-full min-h-screen pt-20 ">{children}</div>;
 };
 
 export const Title = ({ children }) => {
-  return <h1 className="text-4xl my-5">{children}</h1>;
+  return <h2 className="text-4xl mb-5">{children}</h2>;
 };
 
 export const Card = ({ children }) => {
   return (
-    <div className="p-5 sm:p-10 m-5 bg-gray-900 rounded-md">{children}</div>
+    <div className="p-5 sm:p-10 bg-gray-900 lg:rounded-md">{children}</div>
   );
 };

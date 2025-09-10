@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="flex items-center justify-between px-3 lg:px-[10%] py-4 bg-[#0a0d11] text-white fixed z-10 w-full">
+    <header className="flex items-center justify-between px-3 lg:px-[10%] py-2 bg-[#0a0d11] text-white fixed z-10 w-full">
       <div></div>
 
       {/* Botão hamburguer (mobile) */}
