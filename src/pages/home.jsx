@@ -1,6 +1,6 @@
 import RevealOnScroll from "../components/triger";
 import Banner from "../components/banner";
-import { Main, Title, Content, Card } from "../components/commons";
+import { Main, Title, Content, Card, BtnLink } from "../components/commons";
 
 const Home = () => {
   return (
@@ -77,19 +77,16 @@ const Home = () => {
                     assim um site completo e dinamico.
                   </p>
                   <div class="flex w-full justify-center md:justify-start">
-                    <a
-                      class="flex items-center gap-2 mt-5 bg-blue-500 hover:bg-blue-600 px-5 py-2 rounded-xl"
-                      href="https://royal-enfild-react.vercel.app/"
-                      target="_blank"
-                    >
+                    <BtnLink href={"https://royal-enfild-react.vercel.app/"}>
                       Visitar Projeto
-                    </a>
+                    </BtnLink>
                   </div>
                 </Card>
               </div>
             </RevealOnScroll>
           </Content>
         </section>
+        <section></section>
       </Main>
     </>
   );
