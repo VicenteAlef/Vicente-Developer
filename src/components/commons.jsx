@@ -7,16 +7,22 @@ export const Main = ({ children }) => {
 };
 
 export const Content = ({ children }) => {
-  return <div className="w-full min-h-screen pt-20 ">{children}</div>;
+  return <div className="w-full min-h-[720px] pt-20 ">{children}</div>;
 };
 
 export const Title = ({ children }) => {
   return <h2 className="text-4xl mb-5">{children}</h2>;
 };
 
+export const SubTitle = ({ children }) => {
+  return <h3 class="text-2xl mb-5">{children}</h3>;
+};
+
 export const Card = ({ children }) => {
   return (
-    <div className="p-5 sm:p-10 bg-gray-900 lg:rounded-md">{children}</div>
+    <div className="p-5 sm:p-10 bg-gray-900 lg:rounded-md flex flex-col justify-center">
+      {children}
+    </div>
   );
 };
 
