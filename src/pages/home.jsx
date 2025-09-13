@@ -67,8 +67,8 @@ const Home = () => {
           </Content>
         </section>
         <section id="projects">
-          <Content>
-            <RevealOnScroll>
+          <RevealOnScroll>
+            <Content>
               <Title>Projetos</Title>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10">
                 <img
@@ -83,17 +83,49 @@ const Home = () => {
                     React e uma API PHP para servir os dados, possibilitando
                     assim um site completo e dinamico.
                   </p>
-                  <div class="flex w-full justify-center md:justify-start">
-                    <BtnLink href={"https://royal-enfild-react.vercel.app/"}>
-                      Visitar Projeto
+                  <div class="flex w-full justify-center md:justify-start gap-5">
+                    <BtnLink
+                      href={"https://royalenfield.vicentedeveloper.com/"}
+                    >
+                      Visitar Site
+                    </BtnLink>
+                    <BtnLink
+                      href={"https://github.com/VicenteAlef/RoyalEnfild-React"}
+                    >
+                      Repositório GitHub
                     </BtnLink>
                   </div>
                 </Card>
               </div>
-            </RevealOnScroll>
-          </Content>
+              <div className="w-[80%] border-2 border-gray-800 my-10 self-center"></div>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10 mb-20">
+                <img
+                  src="nexus.png"
+                  alt=""
+                  className="border border-solid border-gray-50/25 rounded-md"
+                />
+                <Card>
+                  <SubTitle>Nexus</SubTitle>
+                  <p class="indent-8 text-justify mb-5">
+                    Nexus é um site institucional de uma provedora de internet
+                    fictícia. O projeto foi desenvolvido para fins de portfólio,
+                    mas seu layout e design foram também aplicados em um site
+                    real de cliente.
+                  </p>
+                  <div class="flex w-full justify-center md:justify-start gap-5">
+                    <BtnLink href={"https://nexus.vicentedeveloper.com/"}>
+                      Visitar Site
+                    </BtnLink>
+                    <BtnLink href={"https://github.com/VicenteAlef/Nexus"}>
+                      Repositório GitHub
+                    </BtnLink>
+                  </div>
+                </Card>
+              </div>
+            </Content>
+          </RevealOnScroll>
         </section>
-        <section className="mb-20">
+        <section className="pb-20">
           <RevealOnScroll>
             <Title>Quer ver mais projetos?</Title>
             <Card>

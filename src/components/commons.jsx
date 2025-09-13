@@ -7,7 +7,9 @@ export const Main = ({ children }) => {
 };
 
 export const Content = ({ children }) => {
-  return <div className="w-full min-h-[720px] pt-20 ">{children}</div>;
+  return (
+    <div className="w-full min-h-[720px] pt-20 flex flex-col">{children}</div>
+  );
 };
 
 export const Title = ({ children }) => {
