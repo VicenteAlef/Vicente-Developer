@@ -51,7 +51,7 @@ const Banner = () => {
                 </a>
 
                 {/*LinkedIn*/}
-                <a href="https://www.linkedin.com/in/vicente-silva-57a0a1341/">
+                <a href="www.linkedin.com/in/vicente-da-silva-57a0a1341">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
