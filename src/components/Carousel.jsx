@@ -17,7 +17,7 @@ export default function Carousel({ children }) {
 
   // Transição automática a cada 5s
   useEffect(() => {
-    const interval = setInterval(handleNext, 5000);
+    const interval = setInterval(handleNext, 10000);
     return () => clearInterval(interval);
   }, []);
 

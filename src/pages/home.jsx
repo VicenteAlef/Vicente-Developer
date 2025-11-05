@@ -73,62 +73,105 @@ const Home = () => {
 
         <section id="projects" className="py-20 lg:w-[80%] mx-auto">
           <RevealOnScroll>
-              <Title>Projetos</Title>
-              <Carousel>
-                <div className="grid grid-cols-1 gap-2 lg:gap-5 mb-10 w-[98%] lg:w-[80%] mx-auto">
-                  <img
-                    src="royal.png"
-                    alt=""
-                    className="border border-solid border-gray-50/25 rounded-md"
-                  />
-                  <Card>
-                    <SubTitle>Royal Enfield</SubTitle>
-                    <p class="indent-8 text-justify mb-5">
-                      Uma versão minha de um site da Royal Enfield. Construido
-                      com React e uma API PHP para servir os dados,
-                      possibilitando assim um site completo e dinamico.
-                    </p>
-                    <div class="flex w-full justify-center md:justify-start gap-5">
-                      <BtnLink
-                        href={"https://royalenfield.vicentedeveloper.com/"}
-                      >
-                        Visitar Site
-                      </BtnLink>
-                      <BtnLink
-                        href={
-                          "https://github.com/VicenteAlef/RoyalEnfild-React"
-                        }
-                      >
-                        Repositório GitHub
-                      </BtnLink>
-                    </div>
-                  </Card>
-                </div>
-                <div className="grid grid-cols-1 gap-2 lg:gap-5 mb-10 w-[98%] lg:w-[80%] mx-auto">
-                  <img
-                    src="nexus.png"
-                    alt=""
-                    className="border border-solid border-gray-50/25 rounded-md"
-                  />
-                  <Card>
-                    <SubTitle>Nexus</SubTitle>
-                    <p class="indent-8 text-justify mb-5">
-                      Nexus é um site institucional de uma provedora de internet
-                      fictícia. O projeto foi desenvolvido para fins de
-                      portfólio, mas seu layout e design foram também aplicados
-                      em um site real de cliente.
-                    </p>
-                    <div class="flex w-full justify-center md:justify-start gap-5">
-                      <BtnLink href={"https://nexus.vicentedeveloper.com/"}>
-                        Visitar Site
-                      </BtnLink>
-                      <BtnLink href={"https://github.com/VicenteAlef/Nexus"}>
-                        Repositório GitHub
-                      </BtnLink>
-                    </div>
-                  </Card>
-                </div>
-              </Carousel>
+            <Title>Projetos</Title>
+            <Carousel>
+              <div className="grid grid-cols-1 gap-2 lg:gap-5 mb-10 w-[98%] lg:w-[80%] mx-auto">
+                <img
+                  src="nexus.png"
+                  alt=""
+                  className="border border-solid border-gray-50/25 rounded-md"
+                />
+                <Card>
+                  <SubTitle>Nexus</SubTitle>
+                  <p class="indent-8 text-justify mb-5">
+                    Nexus é um site institucional de uma provedora de internet
+                    fictícia. O projeto foi desenvolvido para fins de portfólio,
+                    mas seu layout e design foram também aplicados em um site
+                    real de cliente.
+                  </p>
+                  <div class="flex w-full justify-center md:justify-start gap-5">
+                    <BtnLink href={"https://nexus.vicentedeveloper.com/"}>
+                      Visitar Site
+                    </BtnLink>
+                    <BtnLink href={"https://github.com/VicenteAlef/Nexus"}>
+                      Repositório GitHub
+                    </BtnLink>
+                  </div>
+                </Card>
+              </div>
+              <div className="grid grid-cols-1 gap-2 lg:gap-5 mb-10 w-[98%] lg:w-[80%] mx-auto">
+                <img
+                  src="bmt.png"
+                  alt=""
+                  className="border border-solid border-gray-50/25 rounded-md"
+                />
+                <Card>
+                  <SubTitle>BMT (Cliente Real)</SubTitle>
+                  <p class="indent-8 text-justify mb-5">
+                    Site institucional real desenvolvido para provedora de
+                    internet BMT. Desenvolvido em React.js + Tailwindcss, o site
+                    conta com elementos menu de navegação de página, carrossel,
+                    botão WhatsApp interativo e muito mais.
+                  </p>
+                  <div class="flex w-full justify-center md:justify-start gap-5">
+                    <BtnLink href={"https://bmtinternet.com.br/"}>
+                      Visitar Site
+                    </BtnLink>
+                  </div>
+                </Card>
+              </div>
+              <div className="grid grid-cols-1 gap-2 lg:gap-5 mb-10 w-[98%] lg:w-[80%] mx-auto">
+                <img
+                  src="royal.png"
+                  alt=""
+                  className="border border-solid border-gray-50/25 rounded-md"
+                />
+                <Card>
+                  <SubTitle>Royal Enfield</SubTitle>
+                  <p class="indent-8 text-justify mb-5">
+                    Uma versão minha de um site da Royal Enfield. Construido com
+                    React e uma API PHP para servir os dados, possibilitando
+                    assim um site completo e dinamico.
+                  </p>
+                  <div class="flex w-full justify-center md:justify-start gap-5">
+                    <BtnLink
+                      href={"https://royalenfield.vicentedeveloper.com/"}
+                    >
+                      Visitar Site
+                    </BtnLink>
+                    <BtnLink
+                      href={"https://github.com/VicenteAlef/RoyalEnfild-React"}
+                    >
+                      Repositório GitHub
+                    </BtnLink>
+                  </div>
+                </Card>
+              </div>
+              <div className="grid grid-cols-1 gap-2 lg:gap-5 mb-10 w-[98%] lg:w-[80%] mx-auto">
+                <img
+                  src="conversor.png"
+                  alt=""
+                  className="border border-solid border-gray-50/25 rounded-md"
+                />
+                <Card>
+                  <SubTitle>Conversor de Moedas</SubTitle>
+                  <p class="indent-8 text-justify mb-5">
+                    Desenvolvido em React TypeScript, este conversor de moedas
+                    consulta o cambio atual da principais moedas consultando uma
+                    API e trazendo o valor convertido com base nas moedas
+                    escolhidas.
+                  </p>
+                  <div class="flex w-full justify-center md:justify-start gap-5">
+                    <BtnLink href={"https://conversor.vicentedeveloper.com"}>
+                      Visitar Site
+                    </BtnLink>
+                    <BtnLink href={"https://github.com/VicenteAlef/Conversor"}>
+                      Repositório GitHub
+                    </BtnLink>
+                  </div>
+                </Card>
+              </div>
+            </Carousel>
           </RevealOnScroll>
         </section>
         <section className="py-20 lg:w-[80%] mx-auto">
